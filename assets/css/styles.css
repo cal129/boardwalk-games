@@ -26,6 +26,14 @@ h3 {
     color: var(--highlight-color);
 }
 
+/* nav bar css */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
 /*.container {
     border: 2px solid rgb(11, 6, 6);
 }
