@@ -21,7 +21,10 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+
+<!--classes on body set to work with mt-auto on footer to ensure it awlays stays at the bottom of the page-->
+
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <div>Navigation</div>
 
@@ -50,6 +53,21 @@
 
 
     </main>
+
+    <!-- Footer and contact-->
+
+    <!-- mt-auto added to push footer to bottom of the page-->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Footer and contact info</div>
+                <!--contact info-->
+                <div class="col-12 col-md-6 col-xl-4">contact</div>
+                <!--Times info-->
+                <div class="col-12 col-md-6 col-xl-4">times</div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- Bootstrap JS -->
