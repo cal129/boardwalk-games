@@ -86,16 +86,6 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-/*.container {
-    border: 2px solid rgb(11, 6, 6);
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: #a6a3a3;
-}
-*/
-
 /* Game library cards */
 
 #new-games .card,
@@ -130,6 +120,8 @@ h2 {
 }
 #contact .socal-links i:hover {
     color: var(--secondary-color);
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
 
